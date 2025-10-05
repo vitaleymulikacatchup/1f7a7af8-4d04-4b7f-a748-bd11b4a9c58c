@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteTheme, SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutFloatingOverlay from '@/components/navigation/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import VoidHero from '@/components/sections/layouts/hero/VoidHero';
@@ -10,8 +10,7 @@ import MewFooter from '@/components/sections/layouts/footer/MewFooter';
 const theme: SiteTheme = {
   styleVariant: 'funAndTrendy',
   colorTemplate: 1,
-  textAnimation: 'slide',
-  buttonOption: 'motion-icon'
+  textAnimation: 'slide'
 };
 
 export default function Home() {
@@ -29,7 +28,7 @@ export default function Home() {
             { name: "About", id: "about" },
             { name: "How to Buy", id: "how-to-buy" },
             { name: "Tokenomics", id: "tokenomics" },
-            { name: "Footer", id: "footer" },
+            { name: "Footer", id: "footer" }
           ]}
         />
       </div>

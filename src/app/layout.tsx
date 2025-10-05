@@ -17,7 +17,7 @@ const playfairDisplay = Playfair_Display({
 export const metadata: Metadata = {
   title: "VibeCrypto: vibrant crypto landing with playful trends",
   description: "VibeCrypto invites you into a vibrant, playful crypto world. Clear steps to learn and buy, transparent tokenomics, and a community-first vibe.",
-  keywords: ["crypto","coin","token","buy crypto","tokenomics","community","vibe","landing page","meme coin","web3","trendy"],
+  keywords: ["crypto", "coin", "token", "buy crypto", "tokenomics", "community", "vibe", "landing page", "meme coin", "web3", "trendy"],
   alternates: { canonical: "/" },
   openGraph: {
     title: "VibeCrypto: vibrant crypto landing with playful trends",
